@@ -68,7 +68,7 @@ export default function Home() {
 
         <h2 className="text-2xl font-bold mb-5">Revolucionando la gestión con Lockplay</h2>
 
-        <div className="grid grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div>
 
             <article className="flex items-center gap-5 mb-10">
@@ -170,7 +170,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="m-auto w-[81%] mb-10 mt-28 grid grid-cols-3 gap-10 text-gray-700">
+      <section className="m-auto w-[81%] mb-10 mt-28 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-24 md:gap-10 text-gray-700">
 
         <article className="relative rounded-xl p-5 pt-14 hover:bg-gradient-to-l from-red-400 to-red-500  hover:text-white transition-colors border border-red-300 shadow-lg">
 
@@ -216,7 +216,6 @@ export default function Home() {
             Ver más
           </button>
         </article>
-
         <article className="relative rounded-xl p-5 pt-14 hover:bg-gradient-to-l from-red-400 to-red-500  hover:text-white transition-colors border border-red-300 shadow-lg">
 
           <div className="absolute top-[-4rem] left-[50%] translate-x-[-50%] overflow-hidden rounded-xl h-28 w-[60%]">
@@ -349,9 +348,9 @@ export default function Home() {
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nemo doloribus officiis, cumque odio, sequi praesentium dolore beatae quia numquam illo ex laborum nobis alias adipisci architecto, esse tempora quis!</p>
 
-        <div className="flex gap-20 mt-10">
+        <div className=" md:flex gap-20 mt-10">
 
-          <div>
+          <div className="mb-10">
             <p>Dirección: Av. Amazonas y Villa Roel</p>
             <p>Teléfono: 099 999 9999</p>
             <p>Correo: correo@correo.com</p>
@@ -411,7 +410,7 @@ export default function Home() {
 
       </section>
 
-      <section className="m-auto w-[81%] mb-10 mt-28 grid grid-cols-3 gap-10 text-gray-700">
+      <section className="m-auto w-[81%] mb-10 mt-28 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-gray-700">
 
         <article className="relative rounded-xl p-5 border border-red-300 shadow-lg">
 
